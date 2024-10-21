@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
     width: 100vw;
@@ -10,12 +11,16 @@ body{
     justify-content: center;
     align-items: center;
     background: url('bgBody.avif');
+    background-color: cadetblue;
+ 
+   
+
 }
 .container-player{
-    width: 18rem;
+    width: 20rem;
     height: 25rem;
     border-radius: 10px;
-    background-color: rgb(17, 0, 255);
+    background-color: rgb(119, 109, 255);
     box-shadow: 4px 4px 5px #5050;
     display: flex;
     flex-direction: column;
@@ -45,6 +50,8 @@ body{
     flex-direction:column;
     align-items: center;
     justify-content: space-around;
+    gap: 1px;
+    cursor: pointer;
 }
 .controls > audio{
     width: 100%;
